@@ -5,9 +5,11 @@ import { logo } from '../assets';
 const Navbar = () => {
   return (
     <div>
-        <p className='text-red-500'>
-            Written
-        </p>
+        <nav>
+            <p>
+                Text
+            </p>
+        </nav>
     </div>
   )
 }
