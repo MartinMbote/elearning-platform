@@ -4,8 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'strathmore-yellow': '#cfa052',
+      },
+    },
   },
   plugins: [],
 }
