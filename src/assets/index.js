@@ -1,3 +1,4 @@
 import logo from "./strathlogo.png";
+import strathWhiteLogo from "./strathLogoWhite.png";
 
-export { logo };
+export { logo, strathWhiteLogo };
