@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, HeroSection, TrustedCompanies } from "./components";
+import { Navbar, HeroSection, TrustedCompanies, FunSection } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <TrustedCompanies />
+        <FunSection />
       </div>
     </BrowserRouter>
   )
