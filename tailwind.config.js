@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         'strathmore-yellow': '#cfa052',
+        'strathmore-blue': '#02338D',
       },
     },
   },
