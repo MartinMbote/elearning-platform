@@ -4,6 +4,8 @@ import { strathWhiteLogo } from '../assets';
 const Footer = () => {
   return (
     <div>
+        <div className='w-[94vw] h-[0.12vw] bg-strathmore-yellow ml-[3vw] mt-[0.7vw]'></div>
+
         <div className='mt-[0.7vw] ml-[0.5vw] w-[99vw] bg-strathmore-blue'>
             <div>
                 <div className='flex flex-row text-white gap-[2.4vw] text-[1.1vw] justify-center'>
