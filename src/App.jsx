@@ -1,19 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
-import { Navbar, HeroSection, TrustedCompanies, FunSection, TopicSection, Footer, AboutUs } from "./components";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { HomePage } from "./pages";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Navbar />
-        <HeroSection />
-        <TrustedCompanies />
-        <FunSection />
-        <TopicSection />
-        <AboutUs />
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div>
+      <HomePage />
+    </div>
   )
 }
 
