@@ -6,7 +6,7 @@ const HomePage = () => {
     <div>
         <Navbar />
         <HeroSection />
-        <TrustedCompanies />
+        {/* <TrustedCompanies /> */}
         <FunSection />
         <TopicSection />
         <AboutUs />

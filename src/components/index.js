@@ -5,5 +5,6 @@ import FunSection from './FunSection';
 import TopicSection from './TopicSection';
 import Footer from './Footer';
 import AboutUs from './AboutUs';
+import MentorSection from './MentorSection';
 
-export { Navbar, HeroSection, TrustedCompanies, FunSection, TopicSection, AboutUs, Footer }; 
+export { Navbar, HeroSection, TrustedCompanies, FunSection, TopicSection, AboutUs, Footer, MentorSection }; 

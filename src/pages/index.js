@@ -1,3 +1,4 @@
 import HomePage from './HomePage';
+import Instructors from './Instructors';
 
-export { HomePage }; 
+export { HomePage, Instructors }; 
