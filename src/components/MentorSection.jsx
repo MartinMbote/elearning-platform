@@ -19,7 +19,7 @@ const MentorSection = ({ name }) => {
                     </p>
                 </div>
 
-                <div className='ml-[7.5vw] flex justify-center gap-[3vw]'>
+                <div className='flex justify-center gap-[3vw]'>
                     <div className='text-center w-[11vw]'>
                         <img src={me} className='h-[11vw] border-[0.15vw] mb-[0.9vw] border-strathmore-yellow rounded-[10vw]'/>
 
