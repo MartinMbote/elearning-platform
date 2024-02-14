@@ -25,7 +25,7 @@ const FunSection = () => {
                             Flexible Learning
                         </p>
 
-                        <p>
+                        <p className='text-[1.06vw]'>
                             Access courses anytime, anywhere, and at your own pace. Our platform is tailored to fit into your busy schedule, allowing you to learn on your terms.
                         </p>
                     </div>
@@ -37,7 +37,7 @@ const FunSection = () => {
                             Diverse Course Catalog
                         </p>
 
-                        <p>
+                        <p className='text-[1.06vw]'>
                             Dive into a vast array of subjects ranging from STEM to humanities, business to arts. With courses designed by experts in their fields, you'll find something to pique your curiosity and advance your skills.
                         </p>
                     </div>
@@ -49,7 +49,7 @@ const FunSection = () => {
                             Interactive Learning Experience
                         </p>
 
-                        <p>
+                        <p className='text-[1.06vw]'>
                             Engage with course materials through multimedia resources, quizzes, assignments, and discussions. Collaborate with peers and instructors to deepen your understanding and foster a dynamic learning community.
                         </p>
                     </div>
@@ -61,7 +61,7 @@ const FunSection = () => {
                             Progress Tracking and Feedback
                         </p>
 
-                        <p>
+                        <p className='text-[1.06vw]'>
                             Stay on top of your learning journey with progress tracking features. Receive personalized feedback from instructors to guide your development and ensure mastery of course content.
                         </p>
                     </div>
@@ -73,7 +73,7 @@ const FunSection = () => {
                             Certification and Recognition
                         </p>
 
-                        <p>
+                        <p className='text-[1.06vw]'>
                             Earn certificates of completion to showcase your newfound knowledge and skills. Our courses are recognized by industry leaders, providing you with credentials that can open doors to new opportunities.
                         </p>
                     </div>
