@@ -1,4 +1,5 @@
 import React from 'react'
+import { africanKidsLearning } from '../assets';
 
 const Courses = () => {
   return (
@@ -15,6 +16,22 @@ const Courses = () => {
                     <p className='text-[2.1vw] font-semibold'>
                         Here are some of the Courses we Offer 
                     </p>
+                </div>
+            </div>
+
+            <div className='ml-[7.5vw]'>
+                <div className='w-[23.5vw] border overflow-hidden'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.2vw]'>
+                        <p className='text-[1vw]'>
+                            Course
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow'>
+                            Game Development
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
