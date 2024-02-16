@@ -1,33 +1,16 @@
 import React from 'react'
-import { strathWhiteLogo } from '../assets';
+import { strathlogoCntered } from '../assets';
 
 const Footer = () => {
   return (
     <div>
         <div className='w-[94vw] h-[0.12vw] bg-strathmore-yellow ml-[3vw] mt-[0.7vw]'></div>
 
-        <div className='mt-[0.7vw] ml-[0.5vw] w-[99vw] bg-strathmore-blue'>
+        <div>
             <div>
-                <div className='flex flex-row text-white gap-[2.4vw] text-[1.1vw] justify-center'>
-                    <img src={strathWhiteLogo} className='mt-[2vw] mr-[8vw] h-[9vw]'/>
+                <img src={strathlogoCntered} className='h-[8vw]'/>
 
-                    <div className='mt-[2vw]'>
-                        <p>Company</p>
-                        <p className='mt-[0.7vw]'>About Us</p>
-                        <p className='mt-[0.7vw]'>Careers</p>
-                        <p className='mt-[0.7vw]'>Educators</p>
-                        <p className='mt-[0.7vw]'>Courses</p>
-                    </div>
-                    
-                    <div className='mt-[2vw]'>
-                        <p>Product</p>
-                        <p className='mt-[0.7vw]'>Courses</p>
-                        <p className='mt-[0.7vw]'>Pricing</p>
-                        <p className='mt-[0.7vw]'>Testimonials</p>
-                    </div>
-                </div>
-
-                <div className='text-[0.9vw] flex flex-row gap-[0.5vw] text-white justify-center mt-[2.5vw]'>
+                <div className='text-[0.9vw] flex flex-row gap-[0.5vw] justify-center font-semibold'>
                     <p>
                         Terms of Service 
                     </p>

@@ -7,5 +7,6 @@ import rightArrow from "./rightArrow.png";
 import girlsStudying from "./girlsStudying.webp";
 import childrenStudy from "./childrenStudy.webp";
 import girlRegister from "./girlRegister.webp";
+import strathlogoCntered from "./strathlogoCntered.png";
 
-export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister };
+export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered };
