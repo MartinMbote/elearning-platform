@@ -1,5 +1,6 @@
 import React from 'react'
 import { africanKidsLearning } from '../assets';
+import { rightArrow } from '../assets';
 
 const Courses = () => {
   return (
@@ -19,18 +20,124 @@ const Courses = () => {
                 </div>
             </div>
 
-            <div className='ml-[7.5vw]'>
-                <div className='w-[23.5vw] border overflow-hidden'>
+            <div className='ml-[7.5vw] flex flex-wrap gap-[3vw]'>
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
                     <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
                     
-                    <div className='ml-[1.2vw]'>
-                        <p className='text-[1vw]'>
-                            Course
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
                         </p>
 
-                        <h2 className='text-[1.3vw] text-strathmore-yellow'>
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
                             Game Development
                         </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
+                    </div>
+                </div>
+
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
+                            Game Development
+                        </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
+                    </div>
+                </div>
+
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
+                            Game Development
+                        </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
+                    </div>
+                </div>
+
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
+                            Game Development
+                        </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
+                    </div>
+                </div>
+
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
+                            Game Development
+                        </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
+                    </div>
+                </div>
+
+                <div className='w-[23.5vw] border overflow-hidden pb-[0.5vw] rounded-[0.3vw]'>
+                    <img src={africanKidsLearning} className='mb-[1vw] mt-[-7vw]'/>
+                    
+                    <div className='ml-[1.1vw]'>
+                        <p className='text-[0.8vw] opacity-80 mb-[0.2vw]'>
+                            COURSES
+                        </p>
+
+                        <h2 className='text-[1.3vw] text-strathmore-yellow font-semibold mb-[0.3vw]'>
+                            Game Development
+                        </h2>
+
+                        <p className='w-[21vw text-[1vw] mb-[0.3vw]'>
+                            Embark on an exciting journey into the world of game development with our comprehensive courses.
+                        </p>
+
+                        <img src={rightArrow} className='h-[1.6vw] pr-[1.2vw] float-right' />
                     </div>
                 </div>
             </div>
