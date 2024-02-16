@@ -11,7 +11,7 @@ const HeroSection = () => {
                         Welcome to Strathmore's <br /> Learning Management System
                     </h1>
 
-                    <p className='text-[1.3vw] w-[45vw] font-normal mb-[1.8vw]'>
+                    <p className='text-[1.3vw] w-[45vw] font-normal mb-[1.8vw] text-white opacity-90'>
                         {/* Welcome to our innovative Learning Management System (LMS), where knowledge meets convenience. Whether you're a student, educator, or lifelong learner, our platform is designed to empower you on your educational journey. Explore a world of possibilities with our diverse range of courses, interactive resources, and intuitive tools. */}
 
                         Embark on a journey of lifelong learning with Strathmore's LMS. Whether you're looking to advance your career, explore new passions, or enhance your skills, our innovative platform offers everything you need to succeed.

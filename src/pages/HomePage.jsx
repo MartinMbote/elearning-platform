@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, HeroSection, TrustedCompanies, FunSection, TopicSection, Footer, AboutUs, MentorSection, Courses } from "../components";
+import { Navbar, HeroSection, TrustedCompanies, FunSection, TopicSection, Footer, AboutUs, MentorSection, Courses, DiscoverWhatsPossible, GetStarted } from "../components";
 
 const HomePage = () => {
   return (
@@ -9,9 +9,11 @@ const HomePage = () => {
         {/* <TrustedCompanies /> */}
         <FunSection />
         <MentorSection />
+        {/* <DiscoverWhatsPossible /> */}
         <Courses />
+        <GetStarted />
         <TopicSection />
-        <AboutUs />
+        {/* <AboutUs /> */}
         <Footer />
     </div>
   )
