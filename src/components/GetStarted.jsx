@@ -27,7 +27,7 @@ const GetStarted = () => {
                                 Ready to take the next step? Sign up for an account and start exploring our catalog of courses. With our user-friendly interface and intuitive navigation, you'll be on your way to learning success in no time.
                             </p>
 
-                            <div className='w-[15vw] h-[3vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[1.4vw]'>
+                            <div className='w-[15vw] h-[3vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[1.4vw] cursor-pointer'>
                                 <p className='text-white text-center leading-[2.6vw] text-[1.05vw]'>
                                     Register
                                 </p>

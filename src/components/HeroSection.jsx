@@ -17,7 +17,7 @@ const HeroSection = () => {
                         Embark on a journey of lifelong learning with Strathmore's LMS. Whether you're looking to advance your career, explore new passions, or enhance your skills, our innovative platform offers everything you need to succeed.
                     </p>
 
-                    <div className='w-[15vw] h-[3vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[1.2vw]'>
+                    <div className='w-[15vw] h-[3vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[1.2vw] cursor-pointer'>
                         <p className='text-white text-center leading-[2.6vw] text-[1.05vw]'>
                             Get Started
                         </p>
