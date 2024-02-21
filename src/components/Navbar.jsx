@@ -17,11 +17,19 @@ const Navbar = () => {
               <p className='text-black cursor-pointer'>
                   Instructors
               </p>
-              <div className='w-[10vw] h-[2.6vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[-0.4vw] cursor-pointer'>
+              {/* <div className='w-[10vw] h-[2.6vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[-0.4vw] cursor-pointer'>
                 <p className='text-black text-center leading-[2.3vw]'>
                   Create Account
                 </p>
-              </div>
+              </div> */}
+
+              <Link to="/elearning-platform/HomePageSigned">
+                <div className='w-[10vw] h-[2.6vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[-0.4vw] cursor-pointer'>
+                  <p className='text-black text-center leading-[2.3vw]'>
+                    Create Account
+                  </p>
+                </div>
+              </Link>
             </div>
         </nav>
         <div className='w-[94vw] h-[0.12vw] bg-strathmore-yellow ml-[3vw]'></div>
