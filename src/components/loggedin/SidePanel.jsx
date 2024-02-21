@@ -10,7 +10,7 @@ const SidePanel = () => {
           {/* <img src={strathWhiteLogo} className='ml-[3.3vw] mt-[1vw] h-[4vw]'/> */}
 
           <Link to="/elearning-platform/">
-          <img src={strathWhiteLogo} className='ml-[3.3vw] mt-[1vw] h-[4vw]'/>
+            <img src={strathWhiteLogo} className='ml-[3.3vw] mt-[1vw] h-[4vw]'/>
           </Link>
         </div>
       </div>
