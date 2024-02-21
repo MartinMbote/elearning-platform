@@ -4,8 +4,8 @@ import { HomePage, Instructors, HomePageSignedIn } from "./pages";
 function App() {
   return (
     <div>
-      {/* <HomePage /> */}
-      <HomePageSignedIn />
+      <HomePage />
+      {/* <HomePageSignedIn /> */}
     </div>
   )
 }
