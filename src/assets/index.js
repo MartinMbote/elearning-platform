@@ -10,5 +10,6 @@ import girlRegister from "./girlRegister.webp";
 import strathlogoCntered from "./strathlogoCntered.png";
 import downArrow from "./downArrow.png";
 import searchIcon from "./searchIcon.png";
+import arrowCircled from "./arrowCircled.png";
 
-export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon };
+export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon, arrowCircled };
