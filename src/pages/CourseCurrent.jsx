@@ -1,10 +1,11 @@
 import React from 'react'
-import { NavBarLoggedIn } from '../components/loggedin'
+import { NavBarLoggedIn, VideoPlayer } from '../components/loggedin'
 
 const CourseCurrent = () => {
   return (
     <div>
         <NavBarLoggedIn />
+        <VideoPlayer />
     </div>
   )
 }
