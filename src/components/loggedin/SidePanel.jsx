@@ -13,6 +13,10 @@ const SidePanel = () => {
             <img src={strathWhiteLogo} className='ml-[3.3vw] mt-[1.5vw] h-[4vw]'/>
           </Link>
         </div>
+
+        {/* <div className='flex justify-center'>
+          <div className='w-[3vw] h-[0.1vw] bg-strathmore-yellow'></div>
+        </div> */}
       </div>
     </div>
   )
