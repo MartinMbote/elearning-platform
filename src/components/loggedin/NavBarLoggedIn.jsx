@@ -19,7 +19,7 @@ const NavBarLoggedIn = () => {
         </nav>
 
         <div className='flex justify-center'>
-          <div className='w-[94vw] h-[0.12vw] bg-strathmore-yellow'></div>
+          <div className='w-[94vw] h-[0.12vw] mb-[0.05vw] bg-strathmore-yellow'></div>
         </div>
     </div>
   )
