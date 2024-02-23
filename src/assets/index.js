@@ -11,5 +11,6 @@ import strathlogoCntered from "./strathlogoCntered.png";
 import downArrow from "./downArrow.png";
 import searchIcon from "./searchIcon.png";
 import arrowCircled from "./arrowCircled.png";
+import profileUser from "./profileUser.png";
 
-export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon, arrowCircled };
+export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon, arrowCircled, profileUser };

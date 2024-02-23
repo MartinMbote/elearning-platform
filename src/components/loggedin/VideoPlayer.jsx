@@ -2,6 +2,9 @@ import React from 'react'
 import ReactPlayer from 'react-player';
 import { africanKidsLearning } from '../../assets';
 import { me } from '../../assets';
+import { profileUser } from '../../assets';
+import UserInputComponent from './UserInputComponent';
+
 
 const VideoPlayer = () => {
   return (
@@ -49,8 +52,8 @@ const VideoPlayer = () => {
             </p>
           </div>
 
-          <div className='mt-[2vw] ml-[1vw]'>
-            <h1 className='text-[1.2vw] font-bold mb-[0.6vw] ml-[0.5vw]'>
+          <div className='my-[2vw] ml-[1vw]'>
+            <h1 className='text-[1.2vw] font-bold mb-[0.6vw] ml-[0.45vw]'>
               Instructor
             </h1>
 
@@ -66,10 +69,22 @@ const VideoPlayer = () => {
                   Front-End Developer
                 </p>
 
-                <p className='text-strathmore-blue font-semibold mt-[0.6vw]'>
+                <p className='text-strathmore-blue font-semibold mt-[0.6vw] text-[1.05vw]'>
                   View More Courses by Martin Maina
                 </p>
               </div>
+            </div>
+          </div>
+
+          <div>
+            <h1 className='text-[1.4vw] font-semibold'>
+              FeedBack
+            </h1>
+
+            <div className='flex flex-row'>
+              <img src={ profileUser} className='h-[3.3vw] my-[1.5vw] bg-strathmore-yellow rounded-[2vw]' />
+
+              <UserInputComponent />
             </div>
           </div>
         </div>
