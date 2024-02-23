@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player';
+import { africanKidsLearning } from '../../assets';
 
 const VideoPlayer = () => {
   return (
@@ -66,10 +67,66 @@ const VideoPlayer = () => {
           </p>
         </div>
 
-        <div className='w-[31.4vw] mt-[0.8vw] border border-strathmore-yellow overflow-hidden pb-[0.4vw] rounded-[0.3vw]'>
-          <div className='w-full h-[10vw] bg-strathmore-blue'>
+        <div className='w-[31.4vw] h-[35vw] mt-[0.8vw] border border-strathmore-yellow overflow-hidden pb-[0.4vw] rounded-[0.7vw] mb-[1vw]'>
+          <div className='w-full bg-strathmore-blue'>
+            <div className='ml-[1.1vw] flex flex-col pb-[1.7vw]'>
+              <h1 className='text-strathmore-yellow text-[0.9vw] mt-[1.2vw]'>
+                Course Content
+              </h1>
 
+              <p className='text-white text-[1.35vw] mt-[0.1vw]'> 
+                Game Development :
+              </p>
+            </div>
           </div>
+
+          <div className='w-31.4vw h-[28.5vw]'>
+          <div className='w-full h-[6vw]'>
+            <div className='bg-strathmore-yellow opacity-25 absolute h-[6vw] w-[31.3vw]'></div>
+
+            <div className='absolute flex flex-row'>
+              <p className='mt-[2.2vw] mx-[0.6vw]'>
+                1
+              </p>
+
+              <img src={africanKidsLearning} className='w-[7vw] h-[5vw] mt-[0.5vw] mr-[1vw] rounded-[0.7vw]' />
+
+              <div>
+                <p className='text-black font-semibold text-[1.05vw] mt-[1.4vw]'>
+                  Introduction to Game Development
+                </p>
+
+                <p className='text-[0.8vw] font-semibold'>
+                  55 min
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className='w-full h-[6vw]'>
+            {/* <div className='bg-strathmore-yellow opacity-25 absolute h-[6vw] w-[31.3vw]'></div> */}
+
+            <div className='absolute flex flex-row'>
+              <p className='mt-[2.2vw] mx-[0.6vw]'>
+                2
+              </p>
+
+              <img src={africanKidsLearning} className='w-[7vw] h-[5vw] mt-[0.5vw] mr-[1vw] rounded-[0.7vw]' />
+
+              <div>
+                <p className='text-black font-semibold text-[1.05vw] mt-[1.4vw]'>
+                  Introduction to Game Development
+                </p>
+
+                <p className='text-[0.8vw] font-semibold'>
+                  55 min
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          
         </div>
       </div>
     </div>
