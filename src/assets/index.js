@@ -13,5 +13,6 @@ import searchIcon from "./searchIcon.png";
 import arrowCircled from "./arrowCircled.png";
 import profileUser from "./profileUser.png";
 import menuIcon from "./menuIcon.png";
+import menuIconWhite from "./menuIconWhite.png"
 
-export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon, arrowCircled, profileUser, menuIcon };
+export { logo, strathWhiteLogo, heroImage, me, africanKidsLearning, rightArrow, girlsStudying, childrenStudy, girlRegister, strathlogoCntered, downArrow, searchIcon, arrowCircled, profileUser, menuIcon, menuIconWhite };
