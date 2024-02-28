@@ -7,7 +7,7 @@ import SidePanel from './SidePanel';
 import SidePanelVideoPlayer from './SidePanelVideoPlayer';
 
 const NavBarLoggedIn = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const togglePanel = () => {
     setIsOpen(!isOpen);
