@@ -9,7 +9,7 @@ import UserInputComponent from './UserInputComponent';
 const VideoPlayer = () => {
   return (
     <div>
-      <div className='flex justify-center h-[35vw] border bg-black'>
+      <div className='flex justify-center h-[36vw] border bg-black'>
         <ReactPlayer url='https://github.com/MartinMbote/elearning-platform/raw/main/src/assets/bikeRide.mp4'
         width='100%'
         height='100%'

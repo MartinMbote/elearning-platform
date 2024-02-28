@@ -15,7 +15,7 @@ const Navbar = () => {
                   Courses
               </p>
               <p className='text-black cursor-pointer'>
-                  Teachers
+                  Instructors
               </p>
               {/* <div className='w-[10vw] h-[2.6vw] border-[0.15vw] rounded-[0.3vw] border-strathmore-yellow mt-[-0.4vw] cursor-pointer'>
                 <p className='text-black text-center leading-[2.3vw]'>

@@ -13,14 +13,15 @@ function UserInputComponent() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Do something with the user input, such as send it to an API or display it on the page
-    alert(`You entered: ${inputValue}`);
+    // alert(`You entered: ${inputValue}`);
+    alert('Your Feedback has been sent');
     // Clear the input field after submission
     setInputValue('');
   };
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className='flex flex-col'>
+      <form onSubmit={handleSubmit} className='flex flex-col mb-[1vw]'>
         <input
             type="text"
             value={inputValue}
@@ -30,7 +31,7 @@ function UserInputComponent() {
           />
         
         <div className='flex justify-end'>
-            <button type="submit" className='border w-[10vw] h-[2.5vw] mt-[0.5vw] bg-strathmore-blue text-white rounded-[1.5vw]'>
+            <button type="submit" className='border w-[10vw] h-[2.5vw] mt-[0.7vw] bg-strathmore-blue text-white rounded-[1.5vw]'>
                 Submit Feedback
             </button>
         </div>
